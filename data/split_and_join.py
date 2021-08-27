@@ -4,8 +4,10 @@
 and produces poor results. So, the files were split locally using the commented
 code, and were finally refined manually to maximise accuracy.'''
 
-# The final, cleaned and combined files are titled
+# The required files for Stage-1 were cleaned, combined and titled
 # Mahabharata-Adiparva-Section-<Section Number>.txt
+# using english_cleanup.py, tamil_cleanup.py and split_and_join.py
+
 
 from mosestokenizer import *
 from indicnlp.tokenize import sentence_tokenize
