@@ -4,7 +4,7 @@ The project required solving two major tasks,
 
     1. Create a Tamil to English translation data set using the toy data given
     2. Evaluate the translation performance of existing open source models/services
-For evaluating the translation performance, we have used a metric called [BLEU score](https://cloud.google.com/translate/automl/docs/evaluate).
+For evaluating the translation performance, we used a metric called [BLEU score](https://cloud.google.com/translate/automl/docs/evaluate).
 
 
 ## Strategy 
