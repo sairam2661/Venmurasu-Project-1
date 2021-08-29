@@ -52,6 +52,6 @@ if __name__ == '__main__':
     
     n = len(fefiles)
 
-    # Calculating BLEU scores for the machine translated files
+    # Calculating BLEU scores for the machine translated files (using GoogleTrans)
     for index in range(0, n):
         calcBleuScore(fefiles[index], MTefiles[index])
