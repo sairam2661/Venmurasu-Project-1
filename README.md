@@ -37,7 +37,7 @@ The resultant **BLEU scores** were,
 
 The overall **BLEU score** obtained was `8.9539742507034`.
 
-## Stage 4 (Using GoogleTrans)
+## Stage 5 (Using GoogleTrans)
 
 In this stage, we use other translation models available and evaluate their performance. We  decided to use the [GoogleTrans](https://py-googletrans.readthedocs.io/en/latest/) which is a library that implements the [Google Translate Ajax API](https://translate.google.com/). Similar to `Stage 3`, we compute the **BLEU scores** for the machine translated files obtained using this API. The machine translated files and other required sources are available in [Folder name](Folder link).
 
