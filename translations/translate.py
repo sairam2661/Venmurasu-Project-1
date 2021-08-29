@@ -26,7 +26,7 @@ def translMTenfiles(tname, ename):
 
 # Driver function
 if __name__ == '__main__':
-    # List of tamil files, and required english MT files
+    # List of tamil files, and required english Machine Translated files
     tfiles = ["Mahabharatha-Adiparva-Section22-ta final.txt", "Mahabharatha-Adiparva-Section23-ta final.txt", "Mahabharatha-Adiparva-Section24-ta final.txt", 
     "Mahabharatha-Adiparva-Section25-ta final.txt", "Mahabharatha-Adiparva-Section26-ta final.txt", "Mahabharatha-Adiparva-Section27-ta final.txt", 
     "Mahabharatha-Adiparva-Section28-ta final.txt", "Mahabharatha-Adiparva-Section29-ta final.txt", "Mahabharatha-Adiparva-Section30-ta final.txt", 
