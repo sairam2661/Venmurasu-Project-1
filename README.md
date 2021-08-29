@@ -8,7 +8,7 @@ For evaluating the translation performance, we have used a metric called [BLEU s
 
 
 ## Strategy 
-The given tasks were solved using a sequential approach, where the work to be done was divided into five stages.
+The given tasks were solved using a sequential approach, where the work to be done was divided into five stages - three primary stages, and two additional stages.
 
 ## Stage 1 
 
