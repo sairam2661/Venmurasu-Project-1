@@ -66,7 +66,7 @@ In conclusion, the **BLEU scores** obtained were not as good as anticipated. Thi
 2. Splitting lines required manual supervision. 
 3. Matching the English-Tamil pairs was difficult to implement automatically, due to the  difference in number of sentences present in English and Tamil sections.
 4. The languages used were archaic, which could result in poor translation accuracy while implementing modern translation APIs.
-5. The **BLEU scores** calculation algorithm demanded higher standards than to be expected of the Machine Translated sentences.
+5. The **BLEU scores** calculation algorithm demanded higher standards than to be expected of the Machine Translators.
 
 From the **BLEU scores** calculated, both translation APIs produced similar results. 
 
