@@ -14,7 +14,7 @@ The given tasks were solved using a sequential approach, where the work to be do
 
 In this stage, we preprocess the [toy data](https://github.com/sairam2661/Venmurasu-Project-1/tree/main/resources) using regex expressions in python as shown in `english_cleanup.py`, `tamil_cleanup.py` and obtain cleaned files in English and Tamil that are combined using `split_and_join.py` and stored in the [data](https://github.com/sairam2661/Venmurasu-Project-1/tree/main/data) folder.
 
-## Stage 2
+## Stage 2 (Using IndicTrans)
 
 In this stage, we translate the preprocessed and split [Tamil files](https://github.com/sairam2661/Venmurasu-Project-1/tree/main/translations/tamil) to [English files](https://github.com/sairam2661/Venmurasu-Project-1/tree/main/translations/english%20translated) using the [IndicTrans model](https://github.com/AI4Bharat/indicTrans#using-the-model-for-translating-any-input). This was done using python as shown in `translate.py`.
 
@@ -39,9 +39,11 @@ The overall **BLEU score** obtained was `8.9539742507034`.
 
 ## Stage 4 (Using GoogleTrans)
 
-In this stage, we use other translation models available and evaluate their performance. We  decided to use the [GoogleTrans](https://py-googletrans.readthedocs.io/en/latest/) which is a library that implements the [Google Translate Ajax API](https://translate.google.com/). Similar to `Stage 3`, we compute the **BLEU scores** for the machine translated files obtained using this API. The machine translated files and other required sources are available in [Folder name](Folder link).
+In this stage, we use other translation models available and evaluate their performance. We  decided to use the [GoogleTrans](https://py-googletrans.readthedocs.io/en/latest/) which is a library that implements the [Google Translate Ajax API](https://translate.google.com/). The files were translated using `translate-gt.py`, and were pushed to [translations-gt](https://github.com/sairam2661/Venmurasu-Project-1/tree/main/translations-gt). 
 
-## Stage 5 
+## Stage 5 (Using GoogleTrans)
+
+In this stage, we compute the **BLEU scores** for the machine translated files obtained using this API. The program used to calculate the **BLEU scores**, `bleu_score_gt.py` are available in [evaluation-gt](https://github.com/sairam2661/Venmurasu-Project-1/tree/main/evaluation-gt). 
 
 The resultant **BLEU scores** were,
 
@@ -59,5 +61,11 @@ The resultant **BLEU scores** were,
 The overall **BLEU score** obtained was `10.150177289325`.
 
 ## Conclusion
-(To be filled)
+In conclusion, the **BLEU scores** obtained were not as good as anticipated. This could be due to various factors such as,
+1. Poor accuracy while translating proper nouns.
+2. Splitting lines required manual supervision. 
+3. Matching the English-Tamil pairs was difficult to implement automatically, due to the  difference in number of sentences present in English and Tamil sections.
+4. The languages used were archaic, which could result in poor translation accuracy while implementing modern translation APIs.
+
+From the BLEU scores, both translation APIs performed poorly, with GoogleTrans marginally outperforming IndicTrans. 
 
