@@ -67,5 +67,5 @@ In conclusion, the **BLEU scores** obtained were not as good as anticipated. Thi
 3. Matching the English-Tamil pairs was difficult to implement automatically, due to the  difference in number of sentences present in English and Tamil sections.
 4. The languages used were archaic, which could result in poor translation accuracy while implementing modern translation APIs.
 
-From the BLEU scores, both translation APIs performed poorly, with GoogleTrans marginally outperforming IndicTrans. 
+From the **BLEU scores**, both translation APIs performed poorly, with GoogleTrans marginally outperforming IndicTrans. 
 
