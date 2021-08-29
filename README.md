@@ -68,5 +68,5 @@ In conclusion, the **BLEU scores** obtained were not as good as anticipated. Thi
 4. The languages used were archaic, which could result in poor translation accuracy while implementing modern translation APIs.
 5. The **BLEU scores** calculation algorithm demanded higher standards than to be expected of the Machine Translators.
 
-From the **BLEU scores** calculated, both translation APIs produced similar results. 
+From the **BLEU scores** calculated, the `IndicTrans API` was able to perform on par with `GoogleTrans`. 
 
