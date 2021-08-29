@@ -5,8 +5,8 @@ from googletrans import Translator
 # Implementing GoogleTrans library, (Google Ajax Translate API)
 def translateGT(tafinal, gtfinal):
     translator = Translator()
-    file1 = open("Mahabharatha-Adiparva-Section31-ta final.txt",'r',encoding='utf-8')
-    file1_gt = open("Section31_gt.txt",'a',encoding='utf-8')
+    file1 = open(tafinal,'r',encoding='utf-8')
+    file1_gt = open(gtfinal,'a',encoding='utf-8')
     while True:
         line = file1.readline()
         if not line:
