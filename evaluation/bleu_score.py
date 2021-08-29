@@ -13,7 +13,6 @@ def calcBleuScore(fename, mtname):
     refs = []
 
     with open(fename) as test:
-    #with open("Chapter 25 en.txt") as test:
         for line in test: 
             line = line.strip().split() 
             line = md.detokenize(line) 
