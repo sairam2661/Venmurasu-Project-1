@@ -71,7 +71,7 @@ In conclusion, the **BLEU scores** obtained were not as good as anticipated. Thi
 From the **BLEU scores** calculated, the `IndicTrans API` was able to perform on par with `GoogleTranslate API`. 
 
 ## Team Members
-1)Ashwin R 
+1)Ashwin R
 2)Bala Bharat Raaj GS 
 3)Sairam Vaidya M
 4)Gokula Krishnan S
