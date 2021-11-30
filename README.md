@@ -72,8 +72,8 @@ From the **BLEU scores** calculated, the `IndicTrans API` was able to perform on
 
 ## Team Members
 1. Ashwin R
-2. Bala Bharat Raaj GS 
+2. Bala Bharat Raaj G S 
 3. Sairam Vaidya M
 4. Gokula Krishnan S
-5. Siva Bharathwaaj SS
+5. Siva Bharathwaaj S S
 
